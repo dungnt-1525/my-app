@@ -10,6 +10,7 @@ class Input extends React.Component {
     handleChange(event) {
         this.props.change(event)
     }
+
     render() {
         return (
             <input

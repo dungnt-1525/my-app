@@ -17,6 +17,7 @@ class SignUp extends React.Component {
             password: ""
         }
     }
+
     handler(event) {
         this.setState({
             [event.target.name]: event.target.value
